@@ -1,0 +1,79 @@
+/* Estilos para el carrito de compras y frutas */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 23%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.product { 
+    border: 1px solid #ccc; 
+    margin: 10px; 
+    padding: 10px; 
+    display: inline-block; 
+}
+#cart { 
+    width: 300px; 
+    height: 300px; 
+    border: 2px dashed #ccc; 
+    margin: 20px; 
+    padding: 10px; 
+    float: left;
+}
+#basura { 
+    width: 200px; 
+    height: 200px; 
+    border: 2px dashed #ccc; 
+    margin: 20px; 
+    padding: 10px; 
+    align-items: center;
+    float: right;
+    cursor: pointer;
+}
+#basura img{ 
+    max-width: 300px; 
+    max-height: 200px; 
+}

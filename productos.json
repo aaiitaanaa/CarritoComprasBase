@@ -1,0 +1,9 @@
+[
+    { "nombre": "kiwi", "precio": 3.5 },
+    { "nombre": "manzana", "precio": 2.2 },
+    { "nombre": "pepino", "precio": 1.8 },
+    { "nombre": "sandia", "precio": 1.2 },
+    { "nombre": "tomate", "precio": 2.5 },
+    { "nombre": "zanahoria", "precio": 1.6 }
+]
+  
